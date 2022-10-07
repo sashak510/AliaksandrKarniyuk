@@ -1,0 +1,113 @@
+/************* TAG SELECTORS ****************/
+body {
+  background-color: #2C3639;
+  font-family: "Palatino";
+  text-align: center;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #DCD7C9;
+  font-family: "Palatino";
+  font-weight: "bold";
+}
+
+h2 {
+  color: #DCD7C9;
+  font-family: "Palatino";
+  ;
+}
+
+label {
+  color: #DCD7C9;
+  font-family: "Palatino";
+}
+
+a {
+  color: #DCD7C9;
+  font-family: "Palatino";
+  padding: 20px
+}
+
+a:hover {
+  background-color: #DCD7C9;
+  color: white;
+}
+
+h4 {
+  font-family: "Palatino";
+  color: #DCD7C9
+}
+
+h3 {
+  font-family: "Palatino";
+  color: #DCD7C9
+}
+
+hr {
+  size: 3;
+  color: #DCD7C9
+}
+
+p {
+  color: #DCD7C9;
+  font-family: "Palatino";
+  letter-spacing: 2px;
+}
+
+table {
+  color: #DCD7C9;
+  font-family: "Palatino";
+  align: "center";
+  vertical-align: "bottom";
+}
+
+ul {
+  color: #DCD7C9;
+  font-family: "Palatino";
+}
+
+/************* CLASS SELECTORS ****************/
+.main_photo {
+  padding: 50px;
+  /* border: solid; */
+}
+
+.hrdots {
+  border-style: none;
+  border-color: white;
+  border-width: 5px;
+  border-top-style: dotted;
+  width: 50%;
+}
+
+.webpage_links {
+  color: #DCD7C9;
+  font-family: "Palatino";
+  height: 70px;
+  display: inline-block;
+  position: absolute;
+  right: 9px;
+  top: 11px;
+}
+
+.contact_form {
+  width: 300;
+  height: 300;
+}
+
+.date {
+  height: 70px;
+  display: inline-block;
+  position: absolute;
+  left: 9px;
+  top: 11px;
+}
+
+/************* ID SELECTORS ****************/
+#intro_paragraph {
+  font-size: 100;
+}
